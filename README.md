@@ -12,8 +12,10 @@ Not everything — just the signal. Filtered by a practicing PM who builds AI pr
 
 - [AI PM Foundations](#-ai-pm-foundations)
 - [Vibe Coding & Agentic Tools](#-vibe-coding--agentic-tools)
+  - CLI Agents · UI Prototyping · Code Editors · Agentic Workflow Tools · PM Skill Libraries
 - [Prompt Libraries for PMs](#-prompt-libraries-for-pms)
 - [Evals & AI Quality](#-evals--ai-quality)
+  - Eval Frameworks · Observability · Quality Scorecards
 - [Building AI Products](#-building-ai-products)
 - [LLM Economics for PMs](#-llm-economics-for-pms)
 - [Learning Resources](#-learning-resources)
