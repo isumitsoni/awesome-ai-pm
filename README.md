@@ -50,6 +50,12 @@ The tools PMs are using to ship without a dedicated engineering team.
 - **[Cursor](https://cursor.com)** — AI-native code editor. Best for longer coding sessions with full codebase context.
 - **[GitHub Copilot](https://github.com/features/copilot)** — In-IDE pair programmer. Good entry point if you're already in VS Code.
 
+### Agentic Workflow Tools
+- **[BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban)** ⭐ 23k — PM-friendly workflow layer for coding agents. Helps non-engineers structure agent tasks and track progress.
+- **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** ⭐ 69k — Autonomous coding agent with broad community support and active maintenance.
+- **[Aider-AI/aider](https://github.com/Aider-AI/aider)** ⭐ 42k — Terminal-based coding agent built for iterative product build loops.
+- **[stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** ⭐ 19k — Open-source browser-based full-stack vibe coding. Strong for rapid founder prototyping.
+
 ### PM-Specific Skill Libraries
 - **[phuryn/pm-skills](https://github.com/phuryn/pm-skills)** ⭐ 7.3k — 100+ agentic skills for Claude Code, Codex, Gemini CLI, Cursor, and Kiro. Covers discovery → strategy → GTM.
 
@@ -59,7 +65,7 @@ The tools PMs are using to ship without a dedicated engineering team.
 
 Structured prompts for real PM workflows — not generic "write me a PRD" prompts.
 
-- **[isumitsoni/pm-prompts](https://github.com/isumitsoni/pm-prompts)** *(coming soon)* — Battle-tested prompt library for every PM workflow: discovery, PRDs, stakeholder comms, prioritization, metrics analysis.
+- **[isumitsoni/pm-prompts](https://github.com/isumitsoni/pm-prompts)** — Practical prompt library for every PM workflow: discovery, strategy, execution, AI feature specs, metrics analysis, and career. 8 categories, 40 prompts.
 - **[Claude Code Skills Marketplace](https://github.com/phuryn/pm-skills)** — Slash commands and skills for Claude Code that automate PM workflows.
 
 *Know a good prompt library? Open a PR.*
@@ -72,6 +78,10 @@ How to define "good" for an AI feature — the PM's job, not the ML engineer's.
 
 - **[Anthropic's Guide to Evals](https://docs.anthropic.com/en/docs/build-with-claude/develop-tests)** — How to build test suites for LLM applications. The starting point.
 - **[AI Evals Course on Maven](https://bit.ly/aievals-ph)** — Practical eval design for PMs. Highly recommended.
+- **[promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)** ⭐ 16k — Evals + red-teaming framework PMs can use as a release gate. Runs prompt comparisons and catches regressions.
+- **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** ⭐ 14k — Straightforward framework for building LLM evaluation suites. Good starting point for PM-led eval programs.
+- **[Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)** ⭐ 8.8k — Observability + eval workflows for production AI features. Useful for ongoing quality monitoring.
+- **[truera/trulens](https://github.com/truera/trulens)** ⭐ 3.1k — Feedback and eval instrumentation for LLM systems.
 - **Key PM mental model:** Define your eval criteria *before* you build. "The AI should sound like a human" is not an eval. "95% of outputs score ≥4/5 on our rubric" is.
 
 ---
@@ -115,6 +125,9 @@ Courses and programs worth your time.
 | [AI Evals (Maven)](https://bit.ly/aievals-ph) | How to evaluate LLM outputs | PMs owning AI quality |
 | [fast.ai](https://fast.ai) | Practical deep learning | PMs who want technical depth |
 | [Anthropic Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code) | Building with Claude Code | PMs who vibe code |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) ⭐ 108k | Structured lesson path for AI builders | PMs new to AI development |
+| [openai/openai-cookbook](https://github.com/openai/openai-cookbook) ⭐ 72k | Implementation patterns and examples | PMs prototyping AI features |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) ⭐ 35k | Practical Claude workflows and examples | PMs building with Claude API |
 
 ---
 
