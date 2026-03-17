@@ -59,6 +59,7 @@ The tools PMs are using to ship without a dedicated engineering team.
 - **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** ⭐ 69k — Autonomous coding agent with broad community support and active maintenance.
 - **[Aider-AI/aider](https://github.com/Aider-AI/aider)** ⭐ 42k — Terminal-based coding agent built for iterative product build loops.
 - **[stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** ⭐ 19k — Open-source browser-based full-stack vibe coding. Strong for rapid founder prototyping.
+- **[PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp)** ⭐ 23.7k — FastMCP framework for exposing tools and workflows to agents. Useful reference now that MCP is showing up in more founder and PM build conversations.
 
 ### PM-Specific Skill Libraries
 - **[phuryn/pm-skills](https://github.com/phuryn/pm-skills)** ⭐ 7.3k — 100+ agentic skills for Claude Code, Codex, Gemini CLI, Cursor, and Kiro. Covers discovery → strategy → GTM.
@@ -91,6 +92,9 @@ How to define "good" for an AI feature — the PM's job, not the ML engineer's.
 - **[tensorzero/tensorzero](https://github.com/tensorzero/tensorzero)** ⭐ 11.1k — Gateway plus observability, optimization, and evaluation in one stack. Strong addition for PMs thinking about production quality and experimentation together.
 - **[vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas)** ⭐ 13.0k — Evaluation toolkit for LLM and RAG systems. Helpful when PMs need a more structured quality conversation than "the outputs seem better."
 - **[guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails)** ⭐ 6.5k — Guardrail layer for LLM applications. Good PM resource for trust-sensitive workflows where failure handling matters as much as model performance.
+- **[comet-ml/opik](https://github.com/comet-ml/opik)** ⭐ 18.3k — Open-source AI observability, evaluation, and optimization. Strong PM pick when you want traces, evals, and prompt iteration in one system instead of separate tools.
+- **[Giskard-AI/giskard-oss](https://github.com/Giskard-AI/giskard-oss)** ⭐ 5.1k — AI testing framework focused on performance, bias, and security risk. Useful when PMs need a more explicit trust and red-team conversation before rollout.
+- **[Agenta-AI/agenta](https://github.com/Agenta-AI/agenta)** ⭐ 3.9k — Open-source LLMOps stack for prompt management, evaluation, and observability. Good fit for teams graduating from ad hoc prompt tests into repeatable experimentation.
 - **Key PM mental model:** Define your eval criteria *before* you build. "The AI should sound like a human" is not an eval. "95% of outputs score ≥4/5 on our rubric" is.
 
 ---
