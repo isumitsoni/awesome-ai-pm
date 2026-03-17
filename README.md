@@ -6,6 +6,8 @@ Not everything — just the signal. Filtered by a practicing PM who builds AI pr
 
 **Maintained by [Sumit Soni](https://github.com/isumitsoni) · [LinkedIn](https://linkedin.com/in/isumitsoni)**
 
+**Last updated:** 2026-03-17
+
 ---
 
 ## Contents
@@ -67,7 +69,7 @@ The tools PMs are using to ship without a dedicated engineering team.
 
 Structured prompts for real PM workflows — not generic "write me a PRD" prompts.
 
-- **[isumitsoni/pm-prompts](https://github.com/isumitsoni/pm-prompts)** — Practical prompt library for every PM workflow: discovery, strategy, execution, AI feature specs, metrics analysis, and career. 8 categories, 40 prompts.
+- **[isumitsoni/pm-prompts](https://github.com/isumitsoni/pm-prompts)** — Practical prompt library for every PM workflow: discovery, strategy, execution, AI feature specs, metrics analysis, and career. 8 categories, 53 prompts.
 - **[Claude Code Skills Marketplace](https://github.com/phuryn/pm-skills)** — Slash commands and skills for Claude Code that automate PM workflows.
 
 *Know a good prompt library? Open a PR.*
@@ -84,6 +86,11 @@ How to define "good" for an AI feature — the PM's job, not the ML engineer's.
 - **[confident-ai/deepeval](https://github.com/confident-ai/deepeval)** ⭐ 14k — Straightforward framework for building LLM evaluation suites. Good starting point for PM-led eval programs.
 - **[Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)** ⭐ 8.8k — Observability + eval workflows for production AI features. Useful for ongoing quality monitoring.
 - **[truera/trulens](https://github.com/truera/trulens)** ⭐ 3.1k — Feedback and eval instrumentation for LLM systems.
+- **[langfuse/langfuse](https://github.com/langfuse/langfuse)** ⭐ 23.3k — Open-source observability, evals, prompt management, and datasets. Good PM pick because it makes quality review and regression tracking visible beyond raw logs.
+- **[Helicone/helicone](https://github.com/Helicone/helicone)** ⭐ 5.3k — LLM observability plus experimentation. Useful for PMs who want to compare prompts, models, and live behavior without building custom dashboards first.
+- **[tensorzero/tensorzero](https://github.com/tensorzero/tensorzero)** ⭐ 11.1k — Gateway plus observability, optimization, and evaluation in one stack. Strong addition for PMs thinking about production quality and experimentation together.
+- **[vibrantlabsai/ragas](https://github.com/vibrantlabsai/ragas)** ⭐ 13.0k — Evaluation toolkit for LLM and RAG systems. Helpful when PMs need a more structured quality conversation than "the outputs seem better."
+- **[guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails)** ⭐ 6.5k — Guardrail layer for LLM applications. Good PM resource for trust-sensitive workflows where failure handling matters as much as model performance.
 - **Key PM mental model:** Define your eval criteria *before* you build. "The AI should sound like a human" is not an eval. "95% of outputs score ≥4/5 on our rubric" is.
 
 ---
@@ -95,6 +102,7 @@ Patterns, frameworks, and hard-won lessons from PMs who ship AI features.
 - **[Vibe Coding vs. Vibe Engineering](https://www.productcompass.pm/p/vibe-coding-vs-vibe-engineering)** — Important distinction: vibe coding is prototyping; vibe engineering is production. Know which one you're doing.
 - **[The PM's Guide to RAG](https://www.productcompass.pm/p/how-to-build-a-rag-chatbot)** — When to use RAG vs fine-tuning vs prompt engineering, explained for PMs.
 - **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** — Working code examples for LLM applications. Clone → run. Great for PMs who want to understand by doing.
+- **[humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents)** ⭐ 18.8k — Production principles for LLM-powered software. Strong fit for PMs and founders because it sharpens architecture judgment without feeling like an ML textbook.
 
 ### Key architectural decisions PMs own
 | Decision | What to consider |
@@ -110,6 +118,8 @@ Patterns, frameworks, and hard-won lessons from PMs who ship AI features.
 
 Cost and latency are product decisions. PMs need to own them.
 
+- **[BerriAI/litellm](https://github.com/BerriAI/litellm)** ⭐ 39.3k — Model gateway with cost tracking, routing, logging, and guardrails. Very relevant for PMs making cost-versus-quality decisions across providers.
+- **[Portkey-AI/gateway](https://github.com/Portkey-AI/gateway)** ⭐ 10.9k — AI gateway with routing and integrated guardrails. Useful for PMs who need reliability, fallback logic, and vendor flexibility built into product decisions.
 - **Token pricing reference:** [Anthropic pricing](https://www.anthropic.com/pricing) · [OpenAI pricing](https://openai.com/api/pricing) · [Google pricing](https://ai.google.dev/pricing)
 - **Mental model:** Input tokens are cheap. Output tokens cost 3-5x more. Design your prompts accordingly.
 - **Haiku/Flash for high-volume, low-stakes tasks. Sonnet/Pro for core reasoning. Opus/Ultra for one-shot complex analysis.**
