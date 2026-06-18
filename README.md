@@ -95,6 +95,7 @@ How to define "good" for an AI feature — the PM's job, not the ML engineer's.
 - **[comet-ml/opik](https://github.com/comet-ml/opik)** ⭐ 18.3k — Open-source AI observability, evaluation, and optimization. Strong PM pick when you want traces, evals, and prompt iteration in one system instead of separate tools.
 - **[Giskard-AI/giskard-oss](https://github.com/Giskard-AI/giskard-oss)** ⭐ 5.1k — AI testing framework focused on performance, bias, and security risk. Useful when PMs need a more explicit trust and red-team conversation before rollout.
 - **[Agenta-AI/agenta](https://github.com/Agenta-AI/agenta)** ⭐ 3.9k — Open-source LLMOps stack for prompt management, evaluation, and observability. Good fit for teams graduating from ad hoc prompt tests into repeatable experimentation.
+- **[future-agi/future-agi](https://github.com/future-agi/future-agi)** — Open-source platform to simulate, evaluate, trace, guardrail, route, and optimize LLM and AI agent apps in one feedback loop, so agents don't just get monitored, they self-improve. Self-hostable. Apache-2.0.
 - **Key PM mental model:** Define your eval criteria *before* you build. "The AI should sound like a human" is not an eval. "95% of outputs score ≥4/5 on our rubric" is.
 
 ---
