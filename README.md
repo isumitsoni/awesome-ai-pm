@@ -161,6 +161,7 @@ High signal-to-noise sources on AI PM.
 
 Tools PMs can use, fork, or learn from.
 
+- **[lockstep-team-agent/lockstep](https://github.com/lockstep-team-agent/lockstep)** — Open-source shared decision memory for product teams using AI coding agents. Keeps active choices, rationale, rejected options, and handoff context available to PMs, engineering leads, developers, and their agents.
 - **[isumitsoni/purepaste](https://github.com/isumitsoni/purepaste)** — AI text cleaner. Strips robotic LLM residue from outputs. Live at [purepaste.pro](https://purepaste.pro).
 - **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** — Working LLM app templates. Great reference for scoping AI features.
 
