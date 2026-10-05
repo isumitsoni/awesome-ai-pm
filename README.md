@@ -72,6 +72,7 @@ Structured prompts for real PM workflows — not generic "write me a PRD" prompt
 
 - **[isumitsoni/pm-prompts](https://github.com/isumitsoni/pm-prompts)** — Practical prompt library for every PM workflow: discovery, strategy, execution, AI feature specs, metrics analysis, and career. 8 categories, 53 prompts.
 - **[Claude Code Skills Marketplace](https://github.com/phuryn/pm-skills)** — Slash commands and skills for Claude Code that automate PM workflows.
+- **[Falkster AI Agent Army](https://falkster.com/handbook/ai-agent-army)** — 44 free AI agent blueprints for product managers: prompt, eval rubric, and ship-readiness gate with each. No signup.
 
 *Know a good prompt library? Open a PR.*
 
